@@ -1,0 +1,2 @@
+# github.com/whosonfirst/go-rfc-5646 v0.1.0
+github.com/whosonfirst/go-rfc-5646
