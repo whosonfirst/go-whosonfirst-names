@@ -2,6 +2,21 @@
 
 Go package for working with names and RFC 5646 language tags in Who's On First documents.
 
+
+## Deprecation notice
+
+This package has been deprecated. Its functionality has been moved in to the [whosonfirst/go-whosonfirst](https://github.com/whosonfirst/go-whosonfirst) package. Efforts have been made to keep changes as minimal as possible. In most (but not all) cases update should be as simple as replacing:
+
+```
+import "github.com/whosonfirst/go-whosonfirst-names`
+```
+
+With:
+
+```
+import "github.com/whosonfirst/go-whosonfirst/v4/names"
+```
+
 ## Install
 
 You will need to have both `Go` (specifically a version of Go more recent than 1.6 so let's just assume you need [Go 1.8](https://golang.org/dl/) or higher) and the `make` programs installed on your computer. Assuming you do just type:
